@@ -1,4 +1,4 @@
-from evaluation import evaluate_policy, summarize_results
+from _evaluation import evaluate_policy, summarize_results
 from policy import run_policy, ROLL_NUMBER
 from industrial_inventory_env import generate_student_config
 
