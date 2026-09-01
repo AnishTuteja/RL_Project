@@ -1,5 +1,11 @@
 from evaluation import evaluate_policy, summarize_results
-from policies.tabular_q_learning import run_policy
+from policy import run_policy, ROLL_NUMBER
+from industrial_inventory_env import generate_student_config
+
+student_config = generate_student_config(ROLL_NUMBER)
+
+validation_seeds = range(100, 110)
+validation_scenarios = ("random", "seasonal", "trend", "shock")
 
 
 
