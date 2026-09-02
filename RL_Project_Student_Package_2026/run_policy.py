@@ -1,5 +1,5 @@
 from _evaluation import evaluate_policy, summarize_results
-from policy import run_policy, ROLL_NUMBER
+from RL_Project_Student_Package_2026.nn_sarsa import run_policy, ROLL_NUMBER
 from industrial_inventory_env import generate_student_config
 
 student_config = generate_student_config(ROLL_NUMBER)
